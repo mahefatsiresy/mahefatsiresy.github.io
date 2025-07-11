@@ -1,38 +1,45 @@
 <script lang="ts">
   import "../app.css";
-  import {
-    BriefcaseBusiness,
-    Folder,
-    GraduationCap,
-    Home,
-  } from "@lucide/svelte";
 
   let { children } = $props();
+
+  const links = [
+    {
+      href: "/#about",
+      text: "About",
+      icon: "😀",
+    },
+    {
+      href: "/#experiences",
+      text: "Experiences",
+      icon: "💼",
+    },
+    {
+      href: "/#projects",
+      text: "Projects",
+      icon: "📁",
+    },
+    {
+      href: "/#education",
+      text: "Educations",
+      icon: "🎓",
+    },
+  ];
 </script>
 
-<nav class="p-2 fixed bottom-6 left-4 right-4 rounded-lg bg-zinc-400/30 backdrop-blur-md text-zinc-300 z-50">
-  <ul class="grid grid-cols-4 gap-4 w-full">
-    <li class="relative flex flex-col items-center gap-1 text-xs p-1 bg-zinc-100 text-zinc-900 rounded-lg">
-      <Home size={24} />
-      <a href="/#about"><span class="absolute inset-0"></span>About</a>
-    </li>
-    <li class="relative flex flex-col items-center gap-1 text-xs w-full p-1 rounded-lg">
-      <BriefcaseBusiness />
-      <a href="/#about" class="block w-full truncate"
-        ><span class="absolute inset-0"></span>Experiences</a
+<nav
+  class="p-2 fixed bottom-6 left-4 right-4 bg-zinc-300/60 backdrop-blur-md text-zinc-300 z-50 w-fit lg:top-6 lg:h-fit mx-auto rounded-full"
+>
+  <ul class="grid grid-cols-4 gap-2 w-full">
+    {#each links as link}
+      <li
+        class="relative flex flex-col items-center text-xs p-1 px-3 text-zinc-900 rounded-full font-semibold"
       >
-    </li>
-    <li class="relative flex flex-col items-center gap-1 text-xs w-full p-1 rounded-lg">
-      <Folder size={24} />
-      <a href="/#about"><span class="absolute inset-0"></span>Projects</a>
-    </li>
-
-    <li class="relative flex flex-col items-center gap-1 text-xs w-full p-1 rounded-lg">
-      <GraduationCap size={24} />
-      <a href="/#about" class="block w-full truncate"
-        ><span class="absolute inset-0"></span>Educations</a
-      >
-    </li>
+        <div class="text-lg">{link.icon}</div>
+        <a href={link.href}><span class="absolute inset-0"></span>{link.text}</a
+        >
+      </li>
+    {/each}
   </ul>
 </nav>
 
