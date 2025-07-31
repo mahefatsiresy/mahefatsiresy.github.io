@@ -20,7 +20,7 @@
       icon: "📁",
     },
     {
-      href: "/#education",
+      href: "/#educations",
       text: "Educations",
       icon: "🎓",
     },

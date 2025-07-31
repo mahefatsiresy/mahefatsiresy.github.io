@@ -15,19 +15,27 @@
   <title>Mahefatsiresy - Fullstack Developer</title>
 </head>
 
-<section id="about" aria-label="biography" class={`${wrapper} lg:mt-32`}>
-  <div class="md:flex md:gap-16">
-    <ProfileCard />
-    <div>
+<section id="about" aria-label="biography" class={`${wrapper} mb-16`}>
+  <div
+    class={"mt-16 grid md:grid-cols-2 align-items-center md:gap-x-8 lg:mt-40 max-w-4xl"}
+  >
+    <div class="md:col-start-2 md:w-fit md:ml-6">
       <h1
-        class="text-2xl font-semibold text-center mt-8 lg:text-5xl lg:text-start"
+        class="text-4xl font-semibold text-center md:text-start mt-8 md:mt-4 lg:text-4xl lg:text-start"
       >
         Fullstack Developer
       </h1>
-      <p class="text-center lg:text-start text-zinc-300 mt-2 mb-8">
+      <p class="text-center md:text-start text-zinc-300 mt-4 mb-8">
         Specialized in web development
       </p>
-      <div class="flex gap-6 items-center my-12 mx-auto lg:ml-32 w-fit">
+    </div>
+    <div
+      class="md:row-start-1 md:row-span-2 justify-self-center md:justify-self-start w-fit"
+    >
+      <ProfileCard />
+    </div>
+    <div class="md:col-start-2 mb-4 mt-8 md:mt-2 md:w-fit md:ml-6">
+      <div class="flex gap-6 items-center mx-auto md:mx-0 w-fit">
         <a href={GITHUB_LINK} class="opacity-30 hover:opacity-100"
           ><span class="hidden">View github profile</span><img
             src={github}
@@ -49,7 +57,7 @@
           /></a
         >
         <a
-          href="#contact"
+          href="mailto:mahefatsiresy.n.lucas@gmail.com"
           class="p-2 px-4 bg-zinc-50 text-zinc-900 rounded-lg font-semibold"
           >Contact me</a
         >
@@ -57,6 +65,9 @@
     </div>
   </div>
 </section>
+<section id="experiences"></section>
+<section id="projects"></section>
+<section id="educations"></section>
 
 <TechStack />
 <!--<Experiences />
