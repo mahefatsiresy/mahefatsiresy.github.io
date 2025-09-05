@@ -21,19 +21,8 @@ export const educations: Education[] = [
 			logo: "",
 			link: "",
 		},
-		date: "2019 - 2023",
-		diploma: "License en informatique et télécommunication",
-	},
-	{
-		formation:
-			"Informatique de Gestion, Genie Logiciel et Intelligence Artificielle",
-		college: {
-			name: "Institut Supérieur Polytechnique de Madagascar (ISPM)",
-			logo: "",
-			link: "",
-		},
-		date: "2019 - now",
-		diploma: "License en informatique et télécommunication",
+		date: "2025",
+		diploma: "Master en informatique et télécommunication",
 	},
 	{
 		formation: "English for business and entrepreneurship",
@@ -44,11 +33,22 @@ export const educations: Education[] = [
 		diploma: "Certification for english for business and entrepreneurship",
 	},
 	{
+		formation:
+			"Informatique de Gestion, Genie Logiciel et Intelligence Artificielle",
+		college: {
+			name: "Institut Supérieur Polytechnique de Madagascar (ISPM)",
+			logo: "",
+			link: "",
+		},
+		date: "2023",
+		diploma: "License en informatique et télécommunication",
+	},
+	{
 		formation: "MongoDB Basics",
 		college: {
-			name: "MOOC",
+			name: "MongoDB University (Online)",
 		},
 		date: "2021",
-		diploma: "Certification for english for business and entrepreneurship",
+		diploma: "MongoDB Basics Certification",
 	},
 ];

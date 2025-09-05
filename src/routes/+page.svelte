@@ -1,14 +1,15 @@
 <script>
-  // import ProjectCard from "../components/ProjectCard.svelte";
   import TechStack from "../components/TechStack.svelte";
-  // import Experiences from "../components/Experiences.svelte";
-  // import SectionTitle from "../components/SectionTitle.svelte";
+  import Experiences from "../components/Experiences.svelte";
+  import SectionTitle from "../components/SectionTitle.svelte";
   import ProfileCard from "../components/ProfileCard.svelte";
+  import ProjectCard from "../components/ProjectCard.svelte";
   import { wrapper } from "$lib/styles";
   import { GITHUB_LINK } from "$lib/data/contact";
   import github from "$lib/assets/github.svg";
   import linkedin from "$lib/assets/linkedin.png";
-  // import { collegeProjects, personalProjects } from "$lib/data/projects";
+  import { collegeProjects, personalProjects } from "$lib/data/projects";
+  import { educations } from '$lib/data/educations'
 </script>
 
 <head>
@@ -65,12 +66,12 @@
     </div>
   </div>
 </section>
-<section id="experiences"></section>
-<section id="projects"></section>
-<section id="educations"></section>
 
 <TechStack />
-<!--<Experiences />
+
+<section id="experiences" class={wrapper}>
+  <Experiences />
+</section>
 
 <section id="projects" class={wrapper}>
   <SectionTitle title={"📁 Projects"} />
@@ -81,22 +82,42 @@
     <ul class="gap-8 grid md:grid-cols-2 lg:grid-cols-3">
       {#each personalProjects as project (project.name)}
         <li>
-          <ProjectCard {...project} />
+          <ProjectCard {project} />
         </li>
       {/each}
     </ul>
   </section>
+
   <section>
     <h3 class="text-xl mt-6 mb-4 font-semibold">College projects</h3>
     <ul class="gap-8 grid md:grid-cols-2 lg:grid-cols-3">
       {#each collegeProjects as project (project.name)}
         <li>
-          <ProjectCard {...project} />
+          <ProjectCard {project} />
         </li>
       {/each}
     </ul>
   </section>
 </section>
 
+<section id="educations" class={wrapper}>
+  <SectionTitle title={"🎓 Educations and certificates"} />
+  <ul class="space-y-6">
+    {#each educations as education}
+      <li>
+        <article>
+          <h3 class="font-semibold">{education.diploma} ({education.date})</h3>
+          <p>{education.college.name}</p>
+        </article>
+      </li>
+    {/each}
+  </ul>
+</section>
+
+<!--
+
 <section id="contact"></section>
 -->
+<footer class="mt-8 p-2">
+  <p class="text-center text-xs">&copy; Copyright {new Date().getFullYear()}</p>
+</footer>

@@ -1,11 +1,17 @@
-import type { Project } from "./types.ts";
+type Project = {
+	name: string;
+	date: string;
+	description: string;
+	technologies: string[];
+	skills: string[];
+};
 
 export const collegeProjects: Project[] = [
 	{
 		name: "Hay Nahandro",
 		date: "2024",
 		description:
-			"A cooking recipes app that help users share and discover recipes. With an AI that allows the users to scan the ingredients at hand then search the possible recipes that can be made with them.",
+			"AI powered cooking recipes app that help users find recipes for the ingredients at hand.",
 		technologies: [
 			"Django + Django Rest Framework",
 			"imageai yolov3 model",
@@ -16,9 +22,9 @@ export const collegeProjects: Project[] = [
 	},
 	{
 		name: "Advanced Personal Management System",
-		date: "2022",
+		date: "2023",
 		description:
-			"An desktop app combined with biometric technology that help institution manage their employees.",
+			"A desktop app combined with biometric technology that help institutions manage their employees.",
 		technologies: [
 			"React",
 			"Socket.IO",
@@ -33,14 +39,14 @@ export const collegeProjects: Project[] = [
 	},
 	{
 		name: "E-fiara",
-		date: "2022",
+		date: "2023",
 		description: "A car rental web app.",
 		technologies: ["React", "Express.js", "MySQL + Prisma"],
 		skills: ["state management with react contexts"],
 	},
 	{
 		name: "Hotel Room Management System",
-		date: "2021",
+		date: "2022",
 		description: "A web application for managing hotel reservations.",
 		technologies: ["React", "Express.js", "MySQL + Prisma"],
 		skills: [
@@ -50,7 +56,7 @@ export const collegeProjects: Project[] = [
 	},
 	{
 		name: "ISPMeet",
-		date: "2021",
+		date: "2022",
 		description: "A social network and online learning plateform for ISPM.",
 		technologies: ["React", "Express.js", "MySQL + Prisma"],
 		skills: [],

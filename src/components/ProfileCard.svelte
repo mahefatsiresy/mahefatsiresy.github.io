@@ -29,7 +29,7 @@
       </div>
     </div>
     <p class="text-zinc-300 text-sm max-w-md ml-4 mt-4">
-      I am a talented developer
+      A talented developer
     </p>
   </div>
 </div>
