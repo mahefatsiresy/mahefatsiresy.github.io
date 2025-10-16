@@ -1,3 +1,4 @@
+import ganuCover from '$lib/assets/fics/tv.png';
 import fikaAssoHome from "$lib/assets/fika_asso/home.png";
 import type { Experience } from "$lib/types";
 
@@ -15,7 +16,7 @@ export const experiences: Experience[] = [
 				image: fikaAssoHome,
 				date: "2025",
 				description:
-					"A platform and management portal for non-profit associations.",
+					"A platform and management portal for associations.",
 				technologies: ["Next.js", "PostgreSQL"],
 				skills: [],
 			},
@@ -41,6 +42,7 @@ export const experiences: Experience[] = [
 			{
 				name: "GANU",
 				date: "2022",
+				image: ganuCover,
 				description:
 					"A real-time web-based communication tool for Enduma's factory operations.",
 				technologies: ["Next.js", "MySQL"],
