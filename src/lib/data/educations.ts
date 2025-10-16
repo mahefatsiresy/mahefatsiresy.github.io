@@ -15,33 +15,33 @@ type Education = {
 export const educations: Education[] = [
 	{
 		formation:
-			"Informatique de Gestion, Genie Logiciel et Intelligence Artificielle",
+			"Information Systems, Software Engineering, and Artificial Intelligence",
 		college: {
 			name: "Institut Supérieur Polytechnique de Madagascar (ISPM)",
 			logo: "",
 			link: "",
 		},
-		date: "2025",
-		diploma: "Master en informatique et télécommunication",
+		date: "Ongoing",
+		diploma: "Master's in Computer Science and Telecommunications",
 	},
 	{
-		formation: "English for business and entrepreneurship",
+		formation: "English for Business and Entrepreneurship",
 		college: {
 			name: "MOOC",
 		},
 		date: "2023",
-		diploma: "Certification for english for business and entrepreneurship",
+		diploma: "Certificate in English for Business and Entrepreneurship",
 	},
 	{
 		formation:
-			"Informatique de Gestion, Genie Logiciel et Intelligence Artificielle",
+			"Information Systems, Software Engineering, and Artificial Intelligence",
 		college: {
 			name: "Institut Supérieur Polytechnique de Madagascar (ISPM)",
 			logo: "",
 			link: "",
 		},
 		date: "2023",
-		diploma: "License en informatique et télécommunication",
+		diploma: "Bachelor's in Computer Science and Telecommunications",
 	},
 	{
 		formation: "MongoDB Basics",
@@ -49,6 +49,7 @@ export const educations: Education[] = [
 			name: "MongoDB University (Online)",
 		},
 		date: "2021",
-		diploma: "MongoDB Basics Certification",
+		diploma: "Certificate in MongoDB Basics",
 	},
 ];
+

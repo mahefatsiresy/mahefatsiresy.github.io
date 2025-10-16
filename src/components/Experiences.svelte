@@ -1,7 +1,7 @@
 <script>
   import SectionTitle from './SectionTitle.svelte'
   import ProjectCard from './ProjectCard.svelte'
-  import { experiences } from '../lib/data/experience.ts'
+  import { experiences } from '../lib/data/experience'
 </script>
 
 <SectionTitle title={"💼 Experiences"}/>
@@ -11,7 +11,7 @@
   <li>
     <dt class="mb-2">
       <p class="text-sm">({xp.date})</p>
-      <p class="text-lg font-semibold">
+      <p class="text-lg font-semibold text-emerald-500">
         {xp.role}
       </p>
     </dt>

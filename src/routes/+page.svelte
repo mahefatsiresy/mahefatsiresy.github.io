@@ -7,7 +7,7 @@
   import { wrapper } from "$lib/styles";
   import { GITHUB_LINK } from "$lib/data/contact";
   import github from "$lib/assets/github.svg";
-  import linkedin from "$lib/assets/linkedin.png";
+  // import linkedin from "$lib/assets/linkedin.png";
   import { collegeProjects, personalProjects } from "$lib/data/projects";
   import { educations } from '$lib/data/educations'
 </script>
@@ -16,9 +16,11 @@
   <title>Mahefatsiresy - Fullstack Developer</title>
 </head>
 
-<section id="about" aria-label="biography" class={`${wrapper} mb-16`}>
+<div class="relative">
+  <div class={"bg-radial-[at_0%_0%] from-zinc-100 to-50% to-zinc-900 absolute h-80 w-80 top-0 left-0 -z-10"}></div>
+<section id="about" aria-label="biography" class={`${wrapper} pt-16 mb-16`}>
   <div
-    class={"mt-16 grid md:grid-cols-2 align-items-center md:gap-x-8 lg:mt-40 max-w-4xl"}
+    class={"grid md:grid-cols-2 align-items-center md:gap-x-8 lg:mt-40 max-w-4xl"}
   >
     <div class="md:col-start-2 md:w-fit md:ml-6">
       <h1
@@ -46,6 +48,7 @@
             width="40"
           /></a
         >
+        <!--
         <a
           href="https://github.com/mahefatsiresy"
           class="opacity-30 hover:opacity-100"
@@ -57,6 +60,7 @@
             width="40"
           /></a
         >
+        -->
         <a
           href="mailto:mahefatsiresy.n.lucas@gmail.com"
           class="p-2 px-4 bg-zinc-50 text-zinc-900 rounded-lg font-semibold"
@@ -66,6 +70,7 @@
     </div>
   </div>
 </section>
+</div>
 
 <TechStack />
 

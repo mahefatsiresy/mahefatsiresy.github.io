@@ -4,10 +4,10 @@
 </script>
 
 <div
-  class="rounded-lg bg-gradient-to-br from-zinc-50 to-50% to-zinc-800/90 backdrop-blur-xl max-w-sm min-w-xs lg:max-w-md p-0.5 h-fit mx-auto"
+  class="rounded-lg bg-radial-[at_0%_0%] from-zinc-50 to-50% to-zinc-800/90 backdrop-blur-xl max-w-sm min-w-xs lg:max-w-md p-0.5 h-fit mx-auto"
 >
   <div
-    class="rounded-lg p-6 md:p-3 lg:p-6 bg-gradient-to-br from-zinc-300 to-35% to-zinc-800/90 backdrop-blur-xl max-w-sm lg:max-w-md"
+    class="rounded-lg p-6 md:p-3 lg:p-6 bg-radial-[at_0%-10%] from-zinc-300 to-45% to-zinc-800/90 backdrop-blur-xl max-w-sm lg:max-w-md"
   >
     <div class="flex gap-4">
       <img
@@ -29,7 +29,7 @@
       </div>
     </div>
     <p class="text-zinc-300 text-sm max-w-md ml-4 mt-4">
-      A talented developer
+      Speaks Malagasy, English and French.
     </p>
   </div>
 </div>
