@@ -16,7 +16,7 @@
         <div
             class="w-full aspect-video bg-zinc-800/80 grid place-items-center text-zinc-400"
         >
-            Preview unavailable
+            Preview not available
         </div>
     {/if}
     <div class="p-2">
