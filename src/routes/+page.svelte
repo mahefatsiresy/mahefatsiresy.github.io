@@ -34,7 +34,7 @@
                     Fullstack Developer
                 </h1>
                 <p class="text-center md:text-start text-zinc-300 mt-4 mb-8">
-                    Specialized in web development
+                    Specialized in web development.
                 </p>
             </div>
             <div

@@ -5,8 +5,9 @@
 <title>Mahefatsiresy | Project details</title>
 
 <div class={`${wrapper} grid place-items-center h-screen`}>
-    <div class="">
+    <div class="grid place-items-center">
         <h1 class="text-center">Work in progress...</h1>
+        <a href="/" class="mt-4 inline-block underline text-center hover:text-green-500">Go back</a>
     </div>
     <!-- <article class="mt-40">
     <div class="w-3/4 rounded-md aspect-16/9 bg-red-500"></div>
