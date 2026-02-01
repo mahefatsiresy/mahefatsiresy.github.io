@@ -21,7 +21,7 @@
         class="absolute top-0 left-0 -z-10 h-screen w-full bg-zinc-900 bg-radial-[at_50%_50%] from-zinc-500/10 to-zinc-900"
     ></div>
     <div
-        class="absolute top-80 left-80 -z-10 h-80 w-80 rounded-full bg-zinc-500/20 blur-3xl"
+        class="absolute top-80 left-20 lg:left-80 -z-10 h-80 w-80 rounded-full bg-zinc-500/20 blur-3xl"
     ></div>
     <section id="about" aria-label="biography" class={`${wrapper} pt-16 mb-16`}>
         <div
@@ -69,10 +69,11 @@
 
 <section id="experiences" class="{wrapper} py-8 relative">
     <div
-        class="absolute -inset-8 -z-10 w-full bg-zinc-900 bg-radial-[at_50%_50%] from-green-500/15 to-80% to-zinc-900"
+        class="absolute -inset-8 -z-10 w-full bg-zinc-900 bg-radial-[at_50%_50%] from-zinc-800/15 to-80% to-zinc-900"
     ></div>
+
     <div
-        class="absolute top-80 left-80 -z-10 h-80 w-80 rounded-full bg-zinc-500/20 blur-3xl"
+        class="absolute top-80 left-20 lg:left-80 -z-10 h-80 w-80 rounded-full bg-zinc-600/20 blur-3xl"
     ></div>
     <Experiences />
 </section>
