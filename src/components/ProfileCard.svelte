@@ -1,6 +1,6 @@
 <script lang="ts">
     import { MapPin } from "@lucide/svelte";
-    import profile from "$lib/assets/profile.png";
+    import profile from "$lib/assets/profile.webp";
     import { onMount } from "svelte";
 
     let card: HTMLDivElement;
