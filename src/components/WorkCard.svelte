@@ -8,6 +8,7 @@
 >
     {#if project.image}
         <img
+            height="1024"
             class="w-full aspect-video bg-zinc-800/80 rounded-lg object-cover rounded-b-none group-hover:scale-105 transition-transform duration-300"
             src={project.image}
             alt={`screenshot of ${project.name}`}

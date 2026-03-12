@@ -1,4 +1,4 @@
-import ficsPreview from "$lib/assets/works/fics/preview.png";
+import ficsPreview from "$lib/assets/works/fics/preview.webp";
 import type { Experience } from "$lib/types";
 
 export const experiences: Experience[] = [

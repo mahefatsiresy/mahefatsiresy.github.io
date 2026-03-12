@@ -1,6 +1,6 @@
-import fikaAssoPreview from "$lib/assets/works/fika_asso/preview.png";
-import easyTatitraPreview from "$lib/assets/works/easy-tatitra/preview.png";
-import hayNahandroPreview from "$lib/assets/works/hay-nahandro/preview.png";
+import fikaAssoPreview from "$lib/assets/works/fika_asso/preview.webp";
+import easyTatitraPreview from "$lib/assets/works/easy-tatitra/preview.webp";
+import hayNahandroPreview from "$lib/assets/works/hay-nahandro/preview.webp";
 import type { Project } from "$lib/types";
 
 export const collegeProjects: Project[] = [
