@@ -20,12 +20,21 @@
         </div>
     {/if}
     <div class="p-2">
+        <p class="text-xs text-end">{project.date}</p>
         <h4 class="my-2 mb-0 font-semibold">
             <a href="/projects/{project.slug}"
                 ><span class="absolute inset-0"></span>{project.name}</a
             >
         </h4>
         <p class="text-zinc-300 mt-1">{project.description}</p>
-        <p class="text-xs mt-1 text-end">{project.date}</p>
+        <ul class="flex flex-wrap gap-2 mt-2">
+            {#each project.technologies as tech}
+                <li
+                    class="text-xs text-zinc-600 border rounded-sm p-[1px] px-1"
+                >
+                    {tech.toLowerCase()}
+                </li>
+            {/each}
+        </ul>
     </div>
 </article>

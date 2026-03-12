@@ -12,6 +12,7 @@ export const collegeProjects: Project[] = [
         description:
             "A smart, centralized platform that connects suppliers, customers, and delivery personnel.",
         technologies: [
+            "typescript",
             "Next.js",
             "Drizzle ORM",
             "React Native",
@@ -28,6 +29,7 @@ export const collegeProjects: Project[] = [
         description:
             "An AI-powered recipe app that helps users find meals based on available ingredients.",
         technologies: [
+            "typescript",
             "Django REST Framework",
             "ImageAI (YOLOv3 model)",
             "React Native",
@@ -42,10 +44,12 @@ export const collegeProjects: Project[] = [
         description:
             "A desktop application integrated with biometric technology to help institutions manage employees efficiently.",
         technologies: [
+            "typescript",
             "React",
             "Socket.IO",
             "Express.js",
-            "MySQL + TypeORM",
+            "MySQL",
+            "TypeORM",
             "Arduino",
         ],
         skills: [
@@ -53,44 +57,44 @@ export const collegeProjects: Project[] = [
             "WebSocket Integration in React",
         ],
     },
-    {
-        slug: "e-fiara",
-        name: "E-fiara",
-        date: "2023",
-        description: "A web application for car rental services.",
-        technologies: ["React", "Express.js", "MySQL + Prisma"],
-        skills: ["State Management with React Context"],
-    },
-    {
-        slug: "hotel-room-management-system",
-        name: "Hotel Room Management System",
-        date: "2022",
-        description:
-            "A web-based system for managing hotel bookings and room availability.",
-        technologies: ["React", "Express.js", "MySQL + Prisma"],
-        skills: [
-            "Frontend Development with React.js",
-            "API Development with Express.js",
-        ],
-    },
-    {
-        slug: "ispmeet",
-        name: "ISPMeet",
-        date: "2022",
-        description:
-            "A social networking and e-learning platform for ISPM students and staff.",
-        technologies: ["React", "Express.js", "MySQL + Prisma"],
-        skills: [],
-    },
-    {
-        slug: "bika",
-        name: "Bika",
-        date: "2020",
-        description:
-            "An Android workout app focused on basic fitness routines.",
-        technologies: ["Java + Android Studio", "SQLite"],
-        skills: ["Android App Development"],
-    },
+    // {
+    //     slug: "e-fiara",
+    //     name: "E-fiara",
+    //     date: "2023",
+    //     description: "A web application for car rental services.",
+    //     technologies: ["React", "Express.js", "MySQL + Prisma"],
+    //     skills: ["State Management with React Context"],
+    // },
+    // {
+    //     slug: "hotel-room-management-system",
+    //     name: "Hotel Room Management System",
+    //     date: "2022",
+    //     description:
+    //         "A web-based system for managing hotel bookings and room availability.",
+    //     technologies: ["React", "Express.js", "MySQL + Prisma"],
+    //     skills: [
+    //         "Frontend Development with React.js",
+    //         "API Development with Express.js",
+    //     ],
+    // },
+    // {
+    //     slug: "ispmeet",
+    //     name: "ISPMeet",
+    //     date: "2022",
+    //     description:
+    //         "A social networking and e-learning platform for ISPM students and staff.",
+    //     technologies: ["React", "Express.js", "MySQL + Prisma"],
+    //     skills: [],
+    // },
+    // {
+    //     slug: "bika",
+    //     name: "Bika",
+    //     date: "2020",
+    //     description:
+    //         "An Android workout app focused on basic fitness routines.",
+    //     technologies: ["Java + Android Studio", "SQLite"],
+    //     skills: ["Android App Development"],
+    // },
 ];
 
 export const personalProjects: Project[] = [
@@ -98,36 +102,27 @@ export const personalProjects: Project[] = [
         slug: "fika-asso",
         name: "FIKA.ASSO",
         image: fikaAssoPreview,
-        date: "2025",
+        date: "2025 - 2026",
         description: "A platform and management portal for associations.",
-        technologies: ["Next.js", "PostgreSQL"],
+        technologies: ["typescript", "Next.js", "PostgreSQL"],
         skills: [],
     },
-    {
-        slug: "restonaka",
-        name: "Restonaka",
-        date: "2024 – Present",
-        description:
-            "An application designed to help restaurant owners streamline daily operations.",
-        technologies: ["Egui"],
-        skills: [],
-    },
-    {
-        slug: "e-tsangatsangana",
-        name: "E-tsangatsangana",
-        date: "2025",
-        description:
-            "A family travel planning app tailored for trips around Madagascar.",
-        technologies: ["Next.js"],
-        skills: [],
-    },
-    {
-        slug: "diariko",
-        name: "Diariko",
-        date: "2025",
-        description:
-            "A personal journaling app for daily reflections and notes.",
-        technologies: ["Flutter"],
-        skills: [],
-    },
+    // {
+    //     slug: "restonaka",
+    //     name: "Restonaka",
+    //     date: "2024 – Present",
+    //     description:
+    //         "An application designed to help restaurant owners streamline daily operations.",
+    //     technologies: ["Egui"],
+    //     skills: [],
+    // },
+    // {
+    //     slug: "e-tsangatsangana",
+    //     name: "E-tsangatsangana",
+    //     date: "2025",
+    //     description:
+    //         "A family travel planning app tailored for trips around Madagascar.",
+    //     technologies: ["Next.js"],
+    //     skills: [],
+    // },
 ];

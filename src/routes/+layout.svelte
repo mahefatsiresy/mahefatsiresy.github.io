@@ -67,22 +67,21 @@
     <ul class="grid grid-cols-4 gap-2 w-full">
         {#each links as link}
             <li
-                class="relative flex flex-col items-center text-xs p-1 px-3 rounded-full font-semibold transition-all duration-200
-        hover:text-green-500 hover:rotate-12 {activeHash === link.id
-                    ? 'text-green-400'
-                    : 'text-zinc-300'}"
+                class="relative flex flex-col items-center text-xs p-1 px-4 rounded-full font-semibold transition-all duration-200 {activeHash ===
+                link.id
+                    ? 'bg-zinc-500/30'
+                    : ''}"
             >
                 <div
-                    class="text-lg px-1 flex items-center justify-center rounded-full bg-transparent mb-1 {activeHash ===
-                    link.id
-                        ? 'shadow-green-500 shadow-inner'
-                        : 'bg-transparent'}"
+                    class="text-lg px-1 flex items-center justify-center rounded-full bg-transparent mb-1"
                 >
                     {link.icon}
                 </div>
 
                 <a href={link.href}>
-                    <span class="absolute inset-0"></span>
+                    <span
+                        class="absolute inset-0 hover:bg-zinc-500/10 rounded-full"
+                    ></span>
                     {link.text}
                 </a>
             </li>

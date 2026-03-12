@@ -115,7 +115,7 @@
                         {education.diploma}
                         <span class="text-sm">{education.date} </span>
                     </h3>
-                    <p class="text-zinc-300 text-sm">
+                    <p class="text-zinc-400 text-sm">
                         {education.college.name}
                     </p>
                 </article>

@@ -10,7 +10,7 @@
     {#each experiences as xp}
         <li>
             <dt class="mb-2">
-                <p class="text-sm">({xp.date})</p>
+                <p class="text-sm">{xp.date}</p>
                 <p class="text-lg font-semibold text-green-500">
                     {xp.role}
                 </p>
